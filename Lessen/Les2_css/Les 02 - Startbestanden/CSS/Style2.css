@@ -1,0 +1,16 @@
+a:link{
+    text-decoration: underline;
+    color: red;
+}
+a:visited{
+    color: lime;
+}
+a:hover{
+    color: pink;
+}
+a:active{
+    color: rgb(44, 174, 255);
+}
+p:hover{
+    background-color: lightgoldenrodyellow;
+}

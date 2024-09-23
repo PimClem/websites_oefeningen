@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+      .merriweather-regular {
+        font-family: "Merriweather", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      :root {
+        --red: #ff0000;
+      }
+      h1,
+      h2 {
+        color: #9000ff;
+        text-decoration: underline;
+      }
+      p {
+        font-size: 20px;
+        font-weight: bold;
+      }
+      #important {
+        color: var(--red);
+        font-weight: bolder;
+        text-decoration: underline;
+      }
+      .ignore {
+        color: #0000003b;
+        font-weight: lighter;
+        text-decoration: line-through;
+      }
+      .notif {
+        background-color: #63e238;
+        border: black 1px solid;
+        width: fit-content;
+      }
+      a:hover {
+        text-transform: uppercase;
+        color: var(--red);
+      }
+      h1 {
+        font-family: "Kaushan Script", cursive;
+        font-weight: 400;
+        font-style: normal;
+        padding: 15px 40px;
+        border: 1px dashed var(--red);
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Titel</h1>
+    <h2>Titel 2</h2>
+    <p>Lorem ipsum dolor sit amet consectetur.</p>
+    <p id="important">Lorem, ipsum.</p>
+    <p class="ignore">Lorem ipsum dolor sit amet.</p>
+    <p class="notif">Lorem, ipsum dolor.</p>
+    <a href="https://www.google.com">Linky link</a>
+    <p class="merriweather-regular">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum doloribus
+      repudiandae eius, maiores culpa corporis.
+    </p>
+  </body>
+</html>
