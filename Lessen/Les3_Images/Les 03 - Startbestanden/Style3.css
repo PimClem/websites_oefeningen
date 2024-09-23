@@ -1,0 +1,33 @@
+body{
+    
+    color: rgb(0, 0, 69);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+    color: #ff6a00;
+};
+
+h2{
+    margin:0;
+    padding-top: 10px;
+    font-size: 1.5em;
+    color: darkblue;
+};
+
+.logo{
+    width: 200px;
+    margin: 20px;
+}
+
+a:link{
+    color: #000060;
+
+}
+
+a:hover{
+    color: #ff6f00;
+}

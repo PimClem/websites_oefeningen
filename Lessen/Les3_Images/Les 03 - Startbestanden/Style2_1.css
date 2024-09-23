@@ -1,0 +1,44 @@
+body{
+    
+    color: #000045;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1{
+    margin: 0;
+    padding: 15px;
+    color: #ff6f00;
+    font-size: 2em;
+}
+
+a:link{
+    color: #000060;
+    text-decoration: none;
+
+}
+
+a:visited{
+    text-decoration: underline;
+
+}
+
+a:hover{
+    color: #ff6f00;
+}
+
+img.klein{
+    border-radius: 5%;
+    margin: 15px;
+    float: left;
+    opacity: 0.5;
+}
+
+img.klein:hover{
+    box-shadow: 10px 5px 5px #ff6f00;
+    opacity: 1;
+}
+
+div{
+    padding: 15px;
+}
