@@ -1,0 +1,17 @@
+hr{
+    border: 1px solid #180d92;
+}
+th{
+    background-color: black;
+    color: white;
+}
+caption{
+    caption-side: bottom;
+}
+
+#entiteit{
+    border: 1px solid #848484;
+    border-collapse: collapse;
+    padding: 15px;
+    text-align: center;
+}

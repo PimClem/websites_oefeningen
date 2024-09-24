@@ -1,0 +1,19 @@
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+th{
+    background-color: black;
+    color: white;
+}
+
+table, td, th{
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    padding: 15px;
+    text-align: center;
+}
+#days{
+    background-color: orangered;
+    color: white;
+}

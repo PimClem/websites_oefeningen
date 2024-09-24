@@ -1,0 +1,17 @@
+table, th, td{
+    border: 2px #a20000 solid;
+    border-collapse: collapse;
+    padding: 20px;
+}
+th{
+    background-color: #ff9292;
+    font-weight: bold;
+}
+
+table{
+    margin: 15px;
+}
+
+hr{
+    border: 3px solid black;
+}
