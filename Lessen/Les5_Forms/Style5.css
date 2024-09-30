@@ -1,0 +1,43 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.verzenden{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+fieldset {
+    box-shadow: 2px 2px gray;
+}
+
+input, label, select, fieldset{
+    padding: 5px;
+    width: 100%;
+    margin: 10px;
+}
+
+fieldset.input, fieldset.label
+{
+   padding: 0;
+   margin: 0; 
+}
+
+input:focus{
+    background-color: #fbff89;
+}
+
+input::placeholder{
+    color: darkgray;
+}
+
+select{
+    background-color: lightgray;
+}
+
+form{
+    width: 20%;
+    margin: auto;
+}

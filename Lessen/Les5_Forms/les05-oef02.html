@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style2.css">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" action="https://tm-statweb.be/forms.php" enctype="multipart/form-data">
+        <div><label for="voornaam">Voornaam:</label></div>
+        <div><input class="invoer" placeholder="Stijn" type="text" name="voornaam" id="voornaam"></div>
+        <div><label for="familienaam">Familienaam:</label></div>
+        <div><input class="invoer" placeholder="Lenaerts" type="text" name="familienaam" id="familienaam"></div>
+        <div><label for="gebruikersnaam">Gebruikersnaam:</label></div>
+        <div><input class="invoer" placeholder="mail@thomasmore.be" type="email" name="gebruikersnaam" id="gebruikersnaam"></div>
+        <div><label for="nickname">Nickname:</label></div>
+        <div><input class="invoer" type="text" name="nickname" id="nickname" required minlength="5" maxlength="15"></div>
+        <div><label for="passwoord">Passwoord:</label></div>
+        <div><input class="invoer" type="password" name="passwoord" id="passwoord" required></div>
+        <div><label for="passwoord">Herhaal passwoord:</label></div>
+        <div><input class="invoer" type="password" name="passwoord" id="passwoord"  required></div>
+        
+        <div><input type="submit" value="registreren"></div>
+    </form>
+    
+</body>
+</html>

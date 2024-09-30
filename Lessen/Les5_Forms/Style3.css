@@ -1,0 +1,33 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.verzenden{
+    width: 100%;
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input{
+    accent-color: red;
+}
+
+form{
+    width: 50%;
+    margin: auto;
+}
+
+legend{
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+
+}
+fieldset, .verzenden{
+    border: 1px gray solid;
+    background-color: beige;
+    padding: 10px;
+    margin: 10px 0px;
+}

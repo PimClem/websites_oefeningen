@@ -1,0 +1,15 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.invoer{
+    background-color: #b6c0f5;
+}
+
+.invoer:focus{
+    background-color: #fff;
+}
+
+form{
+    width: 40%;
+}

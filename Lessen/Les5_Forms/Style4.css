@@ -1,0 +1,32 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.verzenden{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+input,select, .verzenden{
+    background-color: orangered;
+    box-shadow: 5px 5px lightgray;
+    box-sizing:border-box;
+    color:white;
+}
+
+input, select, label{
+    padding: 5px;
+    width: 100%;
+    margin: 10px;
+}
+
+input::placeholder{
+    color: darkgray;
+}
+
+form{
+    width: 20%;
+    margin: auto;
+}
