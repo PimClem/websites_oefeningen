@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap');
+.noord{
+    position: absolute;
+    top: 8px;
+    width: 100%;
+    text-align: center;
+
+}
+.oost{
+    position: absolute;
+    bottom: 50%;
+    right: 90%;
+    text-align: center;
+    
+}
+.zuid{
+    position: absolute;
+    top: 90%;
+    width: 100%;
+    text-align: center;
+    
+    
+}
+.west{
+    position: absolute;
+    bottom: 50%;
+    right: 2%;
+    text-align: center;
+}
+.container {
+  position: relative;
+}
+
+
+img{
+    width: 100%;
+}
+body{
+    color: white;
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 50px;
+}

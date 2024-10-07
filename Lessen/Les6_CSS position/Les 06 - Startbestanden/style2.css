@@ -1,0 +1,36 @@
+
+  
+  .grid-container {
+    display: grid;
+    grid-template-areas: 
+    'header header header header header'
+    'aside main main main main'
+    'footer footer footer footer footer';
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+    width: 1000px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+  .header{
+      grid-area: header;
+    }
+    .aside{
+      grid-area: aside;
+      height: 300px;
+    }
+    .main{
+        grid-area: main;
+        height: 300px;
+    }
+    .footer{
+      grid-area: footer;
+
+  }
